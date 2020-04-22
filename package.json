@@ -13,7 +13,8 @@
     "node-dingtalk"
   ],
   "dependencies": {
-    "@axolo/node-dingtalk": "^0.0.5"
+    "@axolo/node-dingtalk": "^0.1.0",
+    "cache-manager": "^3.2.1"
   },
   "devDependencies": {
     "autod": "^3.0.1",

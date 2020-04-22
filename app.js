@@ -1,9 +1,8 @@
 'use strict';
 
-const Dingtalk = require('@axolo/node-dingtalk');
-
 const createDingtalk = config => {
-  const dingtalk = new Dingtalk(config);
+  const { DingtalkSdk } = config;
+  const dingtalk = new DingtalkSdk(config);
   return dingtalk;
 };
 
