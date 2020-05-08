@@ -1,6 +1,6 @@
 {
   "name": "@axolo/egg-dingtalk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "node-dingtalk plugin for Egg.js.",
   "eggPlugin": {
     "name": "dingtalk"
@@ -13,7 +13,7 @@
     "node-dingtalk"
   ],
   "dependencies": {
-    "@axolo/node-dingtalk": "^0.1.0",
+    "@axolo/node-dingtalk": "^0.1.1",
     "cache-manager": "^3.2.1"
   },
   "devDependencies": {
